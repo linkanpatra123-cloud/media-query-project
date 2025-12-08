@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: #333;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #D8C1B0;
+    height: 150px;
+}
+.logo img{
+    height: 120px;
+    width: 120px;
+}
+.logo{
+    display: flex;
+    align-items: flex-end;
+    font-family: "Lavishly Yours", cursive;
+    font-size: 25px;
+    padding: 20px 25px;
+}
+.nav-bar{
+    justify-content: space-between;
+}
+.nav-bar a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.hero{
+    background: url(texture_background1.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+
